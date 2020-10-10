@@ -1,0 +1,77 @@
+import java.io.*;
+
+public class Funcionario{//Entidade
+
+	private String id;//Atributo
+	private String email;//Atributo
+	private char senha;//Atributo
+	private int telefone;//Atributo
+	
+	
+	public  Funcionario(){
+		
+		this.id=("");
+		this.senha=0;
+		this.telefone= 0;
+		this.email=("");
+	}
+	public Funcionario(String id , char senha, int telefone, String email){
+		this.id = id;
+		this.senha=senha;
+		this.telefone = telefone;
+		this.email = email;
+		
+	}
+	
+
+	public void setId(String id){
+
+		this.id = id;
+	}
+
+	public void setSenha(char senha){
+	
+	     if(senha > 0){
+
+		this.senha = senha;
+
+	      }else{
+
+		System.out.println("\nSenha não pode ser nula");
+	      }	
+	}
+	
+	public String getid(){
+		
+		return id;
+	}
+	
+	public char getSenha(){
+	
+		return senha;
+	}
+	
+	public void setTelefone(int telefone){
+
+		this.telefone = telefone;
+	}
+
+	public void setEmail(String email){
+
+		this.email = email;
+	}
+
+
+	public int getTelefone(){
+		
+		return telefone;
+	}
+
+	public String getEmail(){
+		
+		return email;
+	}
+
+	
+	
+}
