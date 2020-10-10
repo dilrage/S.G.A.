@@ -1,0 +1,83 @@
+package model;
+public class Gerente {
+    
+    private char id,senha,email,dadosControle;
+    private int telefone;
+    
+
+    public Gerente(char id, char senha, char email, char dadosControle, int telefone) {
+        this.id = id;
+        this.senha = senha;
+        this.email = email;
+        this.dadosControle = dadosControle;
+        this.telefone = telefone;
+    }   
+    
+
+    public char getId() {
+        return id;
+    }
+
+    public void setId(char id) {
+        this.id = id;
+    }
+
+    public char getSenha() {
+        return senha;
+    }
+
+    public void setSenha(char senha) {
+        this.senha = senha;
+    }
+
+    public char getEmail() {
+        return email;
+    }
+
+    public void setEmail(char email) {
+        this.email = email;
+    }
+
+    public char getDadosControle() {
+        return dadosControle;
+    }
+
+    public void setDadosControle(char dadosControle) {
+        this.dadosControle = dadosControle;
+    }
+
+    public int getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(int telefone) {
+        this.telefone = telefone;
+    }
+    
+    
+    public void cadAlter(){
+        
+    }
+    
+    public void estatisticasControl(){
+        
+    }
+    
+    public void adicionarGraos(){
+        
+    }
+    
+    public void excluirGraos(){
+        
+    }
+    
+    public void login(){
+        
+    }
+    
+    public void escolherSilo(){
+        
+    }   
+    
+     
+}
