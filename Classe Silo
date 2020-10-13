@@ -1,0 +1,44 @@
+public class Silos {
+    private int qtdSilos;
+    private float capacidade;
+    private float ocupacao;
+
+    public Silos(int qtdSilos, float capacidade, float ocupacao) {
+        this.qtdSilos = qtdSilos;
+        this.capacidade = capacidade;
+        this.ocupacao = ocupacao;
+    }
+
+    public int getQtdSilos() {
+        return qtdSilos;
+    }
+
+    public void setQtdSilos(int qtdSilos) {
+        this.qtdSilos = qtdSilos;
+    }
+
+    public float getCapacidade() {
+        return capacidade;
+    }
+
+    public void setCapacidade(float capacidade) {
+        this.capacidade = capacidade;
+    }
+
+    public float getOcupacao() {
+        return ocupacao;
+    }
+
+    public void setOcupacao(float ocupacao) {
+        this.ocupacao = ocupacao;
+    }
+    
+    public void Carregar(){
+        
+    }
+    
+    public void Descarregar(){
+        
+    }
+    
+}
