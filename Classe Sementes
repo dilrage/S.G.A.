@@ -1,0 +1,40 @@
+public class Sementes {
+    
+    private String tipo;
+    private int qtdPlantada;
+    
+    public Sementes(String tipo, int qtdPlantada) {
+        this.tipo = tipo;
+        this.qtdPlantada = qtdPlantada;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public int getQtdPlantada() {
+        return qtdPlantada;
+    }
+
+    public void setQtdPlantada(int qtdPlantada) {
+        this.qtdPlantada = qtdPlantada;
+    }
+
+    public String tipoSemente(){
+        
+        return;
+    }
+    
+    public void areaPlantada(){
+        
+    }
+    
+    public void silo(){
+        
+    }
+    
+}
